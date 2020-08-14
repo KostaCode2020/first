@@ -24,7 +24,7 @@
   <body>
     <!-- Add your site or application content here -->
     <header>
-      <h1>Second page</h1>
+      <h1>Form page</h1>
       <a href="/">Go to first page</a>
     </header>
     <main>
@@ -32,41 +32,60 @@
         <!--For="name" i id="name" se za fokusot da se prefrli na formata-->
         <!--Vtoroto "name" e nesto drugo, dobra praksa e da se pise-->
         <!--Da ima atribut "name" i vrednosta na "name" treba da bide edinstvena vo taa forma -->
+        <br /><br />
         <label for="name">Name:</label>
+
         <input type="text" id="name" name="firstname" />
 
         <label for="surname">Surname:</label>
+
         <input type="text" id="surname" name="lastname" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
 
-        <label for="city">City:</label>
-        <input type="text" id="city" name="place" />
+        <label for="contact">Contact:</label>
+        <input type="tel" id="phone" name="phone" /><br />
 
-        <label for="phone">Phone:</label>
-        <input type="number" id="phone" name="phone number" />
+        <p>Which brand of CPU do you have?</p>
+        <input type="radio" id="Intel" name="brand" value="cpu" />
+        <label for="Intel">Intel</label>
+        <input type="radio" id="Ryzen" name="brand" value="cpu" />
+        <label for="Ryzen">Ryzen</label><br />
 
-        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
-        <label for="vehicle1"> I have a bike</label><br />
-        <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
-        <label for="vehicle2"> I have a car</label><br />
-        <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat" />
-        <label for="vehicle3"> I have a boat</label><br />
+        <br />
+        <p>What kind of cooling do you have on your PC?:</p>
+        <input
+          type="checkbox"
+          id="cooling1"
+          name="cooling1"
+          value="stock cooler"
+        />
+        <label for="cooling1"> I have a stock cooling</label><br />
+        <input
+          type="checkbox"
+          id="cooling2"
+          name="cooling2"
+          value="luquid cooling"
+        />
+        <label for="cooling2"> I have a liquid cooling</label><br />
+        <input
+          type="checkbox"
+          id="cooling3"
+          name="cooling3"
+          value="no cooling"
+        />
+        <label for="cooling3"> Help, I don't have a cooler!</label><br />
+        <br />
 
         <!--kaj radio buttons vrednosta na "name" treba da bide ista i na drugite -->
         <!--Radio buttons i Checkboxes treba da imaat "value" atribute-->
-        <input type="radio" id="male" name="gender" value="male" />
-        <label for="male">Male</label><br />
-        <input type="radio" id="female" name="gender" value="female" />
-        <label for="female">Female</label><br />
-        <input type="radio" id="other" name="gender" value="other" />
-        <label for="other">Other</label>
 
-        <input
-          type="hidden"
-          name="hidden field"
-          value="Value of hidden field"
-        />
-
-        <input type="submit" value="Submit" />
+        <input type="hidden" name="user_id" value="2352567fghsd76" />
+        <br />
+        <input type="submit" value="Confirm" />
+        <input type="reset" />
       </form>
       <pre id="preview"></pre>
     </main>
