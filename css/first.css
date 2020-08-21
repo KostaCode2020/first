@@ -1,0 +1,79 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  display: block;
+  padding: 20px;
+  border: 8px solid black;
+  margin: 20px;
+  padding-left: 64px;
+  padding-right: 5%;
+  margin-right: 53%;
+  margin-left: 2%;
+}
+
+.listClass {
+  padding-right: 94%;
+}
+
+h1.inside {
+  color: rgba(0, 149, 207, 0.911);
+}
+
+/* stiliziraj mi gi site tagovi koi sto se naogjaat vnatre vo h1 tag
+ i plus ja imaat klasata "inside"  aka negovite deca*/
+h1 .inside {
+  color: red;
+}
+
+/* Najdi h1 tag so klasa inside i na toj tag baraj child vnatre
+ i da ima klasa double-inside*/
+
+/* h1.inside .double-inside {
+  color: pink;
+} */
+
+/* Najdi mi h1 tag sto ima klasa inside, no ima i klasa double-inside */
+/* h1.inside.double-inside {
+  color: pink;
+} */
+
+h2 {
+  color: red;
+}
+
+.second {
+  color: brown;
+}
+
+.first {
+  color: blue;
+}
+
+#secondID {
+  color: orange;
+}
+
+#firstID {
+  color: yellow;
+}
+
+/*Gi selektira decata na main*/
+#main a {
+  font-weight: bold;
+}
+
+/* a primaren selektor i hover e pseudo selektor*/
+a {
+  font-weight: bold;
+}
+
+input:required {
+  border: 2px solid;
+}
+
+footer .klasa {
+  color: yellow;
+  font-style: bolder;
+  font-style: italic;
+}

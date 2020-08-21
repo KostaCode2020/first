@@ -17,37 +17,73 @@
 
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="./css/first.css" />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
 
   <body>
     <!-- Add your site or application content here -->
-    <header style="text-align: center;">
-      <h1>Kosta Naumoski's Portfolio</h1>
+    <header>
+      <!-- ovde e h1.inside class-->
+      <div>
+        <h1 class="inside">
+          Kosta Naumoski's Portfolio
+          <!-- ova span class e za h1 .inside -->
+          <span class="inside"
+            >2020 <strong class="double-inside">July</strong></span
+          >
+        </h1>
+      </div>
+      <p style="padding-left: 29%;">
+        <strong>Web Developer&nbsp;(loading..)</strong>
+      </p>
+
       <img
         src="./img/wallhaven-39w23d_1920x1080.png"
         alt="Background"
         title="Background"
-        width="1100"
+        style="
+          margin-left: auto;
+          margin-right: auto;
+          width: 96%;
+          height: auto;
+          display: block;
+          position: relative;
+        "
       />
+
+      <!-- <span style="display: block;">second inline elemtn</span> -->
     </header>
-    <main style="text-align: center;">
+    <main id="main" style="text-align: center;">
       <a href="/second.html">Go to second page</a>
-      <p>
+      <p class="second">
         My name is Kosta and I'm learning to become a FrontEnd Developer on
         CodeAcademy. Visual studio is cool. In the meantime you can check out my
         social links.
       </p>
-      <h2>My social networks:</h2>
-      <ul>
-        <a href="https://www.facebook.com/"> <li>Facebook</li></a>
-        <a href="https://www.twitter.com/"><li>Twitter:</li></a>
-        <a href="https://www.instagram.com/"><li>Instagram:</li></a>
+
+      <!--Ova morase da e na block, bidejki na inline ima drug rezultat-->
+      <h2 style="position: sticky; bottom: 0; padding-top: 7px;">
+        My social networks:
+      </h2>
+      <span><strong> Some really cool inline here</strong></span>
+
+      <ul style="padding-left: 48%;">
+        <a href="https://www.facebook.com/">
+          <li class="listClass">Facebook:</li></a
+        >
+        <a href="https://www.twitter.com/"
+          ><li class="listClass">Twitter:</li></a
+        >
+
+        <a href="https://www.instagram.com/"
+          ><li class="listClass">Instagram:</li></a
+        >
       </ul>
     </main>
     <footer style="text-align: center;">
-      <span>Kosta Naumoski 2020-2021 ©</span>
+      <span class="klasa" id="secondID">Kosta Naumoski 2020-2021 ©</span>
     </footer>
 
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
