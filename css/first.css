@@ -41,7 +41,7 @@ li a.menuTop:hover {
 }
 
 .pic {
-  width: 150px;
+  width: 200px;
   height: 100px;
 }
 
@@ -49,6 +49,7 @@ ul.list {
   list-style-type: none;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -59,7 +60,29 @@ ul.list2 {
   justify-content: center;
 }
 
+ul.list3 {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .scrollable {
-  height: 200px;
+  height: 240px;
   overflow: auto;
+}
+
+h4.title {
+  display: flex;
+  flex-direction: column;
+  margin-top: -8px;
+  padding-left: 26px;
+}
+
+p.text {
+  text-align: center;
+}
+
+#right {
+  padding-right: 20px;
 }
