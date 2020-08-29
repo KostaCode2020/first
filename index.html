@@ -2,7 +2,7 @@
 <html class="no-js" lang="">
   <head>
     <meta charset="utf-8" />
-    <title>Kosta's Portfolio</title>
+    <title>Website Cool Name</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -16,92 +16,105 @@
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="./css/first.css" />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
-
-  <body>
-    <!-- Add your site or application content here -->
-    <header>
-      <!-- ovde e h1.inside class-->
-      <div>
-        <h1 class="inside">
-          Kosta Naumoski's Portfolio
-          <!-- ova span class e za h1 .inside -->
-          <span class="inside"
-            >2020 <strong class="double-inside">July</strong></span
-          >
-        </h1>
+  <header>
+    <body>
+      <!-- Add your site or application content here -->
+      <div class="container-fluid">
+        <ul class="menuTop">
+          <i class="fa fa-camera-retro fa-3x logo"></i>
+          <li class="menuTop"><a class="menuTop" href="#news">News</a></li>
+          <li class="menuTop">
+            <a class="menuTop" href="#contact">Contact</a>
+          </li>
+          <li class="menuTop"><a class="menuTop" href="#about">About</a></li>
+          <li class="menuTop"><a class="menuTop" href="#home">Home</a></li>
+        </ul>
       </div>
-      <p style="padding-left: 29%;">
-        <strong>Web Developer&nbsp;(loading..)</strong>
-      </p>
+      <div>
+        <h1 class="title">Very cool title here</h1>
+        <p>Some text some text some text some text..</p>
+        <p>Some text some text some text some text..</p>
+      </div>
 
-      <img
-        src="./img/wallhaven-39w23d_1920x1080.png"
-        alt="Background"
-        title="Background"
-        style="
-          margin-left: auto;
-          margin-right: auto;
-          width: 96%;
-          height: auto;
-          display: block;
-          position: relative;
-        "
-      />
+      <main>
+        <div class="scrollable">
+          <ul class="list">
+            <li>
+              <a target="_blank" href="/img/wallhaven1.png">
+                <img class="pic" src="/img/wallhaven1.png" alt="background1" />
+              </a>
+            </li>
 
-      <!-- <span style="display: block;">second inline elemtn</span> -->
-    </header>
-    <main id="main" style="text-align: center;">
-      <a href="/second.html">Go to second page</a>
-      <p class="second">
-        My name is Kosta and I'm learning to become a FrontEnd Developer on
-        CodeAcademy. Visual studio is cool. In the meantime you can check out my
-        social links.
-      </p>
+            <li>
+              <a target="_blank" href="/img/wallhaven2.png">
+                <img class="pic" src="/img/wallhaven2.png" alt="background2" />
+              </a>
+            </li>
 
-      <!--Ova morase da e na block, bidejki na inline ima drug rezultat-->
-      <h2 style="position: sticky; bottom: 0; padding-top: 7px;">
-        My social networks:
-      </h2>
-      <span><strong> Some really cool inline here</strong></span>
+            <li>
+              <a target="_blank" href="/img/wallhaven3.png">
+                <img class="pic" src="/img/wallhaven3.png" alt="background3" />
+              </a>
+            </li>
+          </ul>
+          <div>
 
-      <ul style="padding-left: 48%;">
-        <a href="https://www.facebook.com/">
-          <li class="listClass">Facebook:</li></a
-        >
-        <a href="https://www.twitter.com/"
-          ><li class="listClass">Twitter:</li></a
-        >
+          <ul class="list2">
+            <li >
+              <a target="_blank" href="/img/wallhaven4.png">
+                <img class="pic" src="/img/wallhaven4.png" alt="background4" />
+              </a>
+            </li>
 
-        <a href="https://www.instagram.com/"
-          ><li class="listClass">Instagram:</li></a
-        >
-      </ul>
-    </main>
-    <footer style="text-align: center;">
-      <span class="klasa" id="secondID">Kosta Naumoski 2020-2021 ©</span>
-    </footer>
+            <li >
+              <a target="_blank" href="/img/wallhaven5.png">
+                <img class="pic" src="/img/wallhaven5.png" alt="background5" />
+              </a>
+            </li>
 
-    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+            <li >
+              <a target="_blank" href="/img/wallhaven6.png">
+                <img class="pic" src="/img/wallhaven6.png" alt="background6" />
+              </a>
+            </li>
+          </ul>
+          </ul>
+        </div>
+        </div>
+      </main>
+      <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+      <script src="js/plugins.js"></script>
+      <script src="js/main.js"></script>
 
-    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-    <script>
-      window.ga = function () {
-        ga.q.push(arguments);
-      };
-      ga.q = [];
-      ga.l = +new Date();
-      ga("create", "UA-XXXXX-Y", "auto");
-      ga("set", "anonymizeIp", true);
-      ga("set", "transport", "beacon");
-      ga("send", "pageview");
-    </script>
-    <script src="https://www.google-analytics.com/analytics.js" async></script>
-  </body>
+      <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+      <script>
+        window.ga = function () {
+          ga.q.push(arguments);
+        };
+        ga.q = [];
+        ga.l = +new Date();
+        ga("create", "UA-XXXXX-Y", "auto");
+        ga("set", "anonymizeIp", true);
+        ga("set", "transport", "beacon");
+        ga("send", "pageview");
+      </script>
+      <script
+        src="https://www.google-analytics.com/analytics.js"
+        async
+      ></script>
+    </body>
+  </header>
 </html>
